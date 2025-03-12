@@ -1,0 +1,75 @@
+/* ✅ সাধারণ পেজ স্টাইল */
+body {
+    font-family: Arial, sans-serif; /* 🔹 ফন্ট সেট করা */
+    text-align: center; /* 🔹 টেক্সট সেন্টার করা */
+    background-color: #f4f4f4; /* 🔹 ব্যাকগ্রাউন্ড রঙ সেট করা */
+    margin: 0;
+    padding: 0;
+}
+
+/* ✅ Navigation Bar */
+.navbar {
+    background: #3498db; /* 🔹 নেভবারের ব্যাকগ্রাউন্ড রঙ */
+    padding: 15px; /* 🔹 প্যাডিং যোগ করা */
+    text-align: center;
+}
+
+.navbar h2 {
+    color: white; /* 🔹 লেখা সাদা করা */
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none; /* 🔹 বুলেট পয়েন্ট রিমুভ করা */
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    display: inline; /* 🔹 মেনু এক লাইনে রাখা */
+    margin: 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none; /* 🔹 আন্ডারলাইন রিমুভ করা */
+    color: white;
+    font-weight: bold;
+}
+
+/* ✅ Profile Section */
+.profile-container {
+    background: white; /* 🔹 ব্যাকগ্রাউন্ড হোয়াইট */
+    width: 60%; /* 🔹 কন্টেইনারের প্রস্থ */
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* 🔹 বক্স শ্যাডো যোগ করা */
+    border-radius: 10px; /* 🔹 কোণার রাউন্ড */
+}
+
+/* ✅ Profile Picture */
+.profile-pic {
+    width: 120px; /* 🔹 ছবির আকার */
+    border-radius: 50%; /* 🔹 ছবিকে গোল করা */
+    border: 4px solid #3498db; /* 🔹 বর্ডার যোগ করা */
+}
+
+/* ✅ Social Links */
+.social-links a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    background: #3498db;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: #2980b9; /* 🔹 হোভার করলে রঙ পরিবর্তন হবে */
+}
+.services {
+    list-style: none; /* 🔹 Bullet points সরিয়ে ফেলা */
+    padding: 0; /* 🔹 ডিফল্ট padding সরানো */
+    margin: 0; /* 🔹 ডিফল্ট margin সরানো */
+}
